@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"oidc_provider","Source":"git::https://github.com/Roro-yero/td5-2.git//td5/scripts/tofu/modules/github-aws-oidc?ref=opentofu-tests","Dir":".terraform/modules/oidc_provider/td5/scripts/tofu/modules/github-aws-oidc"}]}

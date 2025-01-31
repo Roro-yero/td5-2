@@ -10,7 +10,7 @@ module "oidc_provider" {
 }
 
 module "iam_roles" {
-  source = "github.com/Roro-yero/td5-2//td5/scripts/tofu/modules/gh-actions-iam-roles?ref=opentofu-tests"
+  source = "github.com/Roro-yero/td5-2//td5/cripts/tofu/modules/gh-actions-iam-roles?ref=opentofu-tests"
 
   name              = "lambda-sample"                           
   oidc_provider_arn = module.oidc_provider.oidc_provider_arn    
